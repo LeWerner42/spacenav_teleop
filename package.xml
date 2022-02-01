@@ -1,0 +1,20 @@
+<package format="2">
+  <name>spacenav_teleop</name>
+  <version>1.1.1</version>
+  <license>BSD</license>
+  <description>
+    ROS node to control rovers simultanious to gazebo with a 3DConnexion Space Mouse.
+  </description>
+
+  <maintainer email="lennart.werner@stud-mail.uni-wuerzburg.de">Lennart Werner</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslint</build_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>libspnav-dev</depend>
+  <depend>roscpp</depend>
+
+</package>
